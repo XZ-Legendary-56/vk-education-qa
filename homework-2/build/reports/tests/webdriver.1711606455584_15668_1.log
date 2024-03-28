@@ -1,0 +1,171 @@
+[1711606455.859][INFO]: Starting Microsoft Edge WebDriver 122.0.2365.106 (a5761ec716578880da8db19f9d5f4651db61c63d) on port 8916
+[1711606455.859][INFO]: Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+[1711606455.989][INFO]: [55a0f6e69468cba38e573a33027dcd7e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "MicrosoftEdge",
+         "ms:edgeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--window-size=2560,1440" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\bitok\\IdeaProjects\\homework-2\\build\\downloads\\1711606455568_15668_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1,
+               "profile.password_manager_enabled": false,
+               "safebrowsing.enabled": true
+            }
+         },
+         "pageLoadStrategy": "normal",
+         "unhandledPromptBehavior": "accept"
+      } ]
+   }
+}
+[1711606455.990][INFO]: Browser search. Trying... C:\Users\bitok\.cache\selenium\msedgedriver\win64\122.0.2365.106\msedge.exe
+[1711606455.991][INFO]: Browser search. Trying... C:\Users\bitok\AppData\Local\Microsoft\Edge\Application\msedge.exe
+[1711606455.991][INFO]: Browser search. Trying... C:\Program Files\Microsoft\Edge\Application\msedge.exe
+[1711606455.991][INFO]: Browser search. Trying... C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[1711606455.991][INFO]: Browser search. Found at  C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[1711606455.992][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\bitok\\IdeaProjects\\homework-2\\build\\downloads\\1711606455568_15668_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": true
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1711606455.992][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1711606455.993][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1711606455.993][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1711606455.993][INFO]: WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS = 
+[1711606455.993][INFO]: Launching Microsoft Edge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\bitok\AppData\Local\Temp\scoped_dir25428_934787479" --window-size=2560,1440 data:,
+[1711606456.454][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1711606456.456][INFO]: [55a0f6e69468cba38e573a33027dcd7e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "MicrosoftEdge",
+      "browserVersion": "122.0.2365.92",
+      "fedcm:accounts": true,
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:54093"
+      },
+      "msedge": {
+         "msedgedriverVersion": "122.0.2365.106 (a5761ec716578880da8db19f9d5f4651db61c63d)",
+         "userDataDir": "C:\\Users\\bitok\\AppData\\Local\\Temp\\scoped_dir25428_934787479"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "accept",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "55a0f6e69468cba38e573a33027dcd7e"
+}
+[1711606456.529][INFO]: [55a0f6e69468cba38e573a33027dcd7e] COMMAND SetWindowRect {
+   "height": 1440,
+   "width": 2560
+}
+[1711606456.529][INFO]: Waiting for pending navigations...
+[1711606456.530][INFO]: Done waiting for pending navigations. Status: ok
+[1711606456.640][INFO]: Waiting for pending navigations...
+[1711606456.640][INFO]: Done waiting for pending navigations. Status: ok
+[1711606456.640][INFO]: [55a0f6e69468cba38e573a33027dcd7e] RESPONSE SetWindowRect {
+   "height": 1440,
+   "width": 2560,
+   "x": 10,
+   "y": 10
+}
+[1711606456.643][INFO]: [55a0f6e69468cba38e573a33027dcd7e] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1711606456.643][INFO]: [55a0f6e69468cba38e573a33027dcd7e] RESPONSE SetTimeouts
+[1711606456.647][INFO]: [55a0f6e69468cba38e573a33027dcd7e] COMMAND Navigate {
+   "url": "http://localhost:8080"
+}
+[1711606456.647][INFO]: Waiting for pending navigations...
+[1711606456.647][INFO]: Done waiting for pending navigations. Status: ok
+[1711606459.103][INFO]: Waiting for pending navigations...
+[1711606459.106][INFO]: Done waiting for pending navigations. Status: ok
+[1711606459.339][INFO]: Waiting for pending navigations...
+[1711606459.339][INFO]: Done waiting for pending navigations. Status: ok
+[1711606459.339][INFO]: [55a0f6e69468cba38e573a33027dcd7e] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: MicrosoftEdge=122.0.2365.92)
+[1711606459.352][INFO]: [55a0f6e69468cba38e573a33027dcd7e] COMMAND Quit {
+}
+[1711606459.376][INFO]: [55a0f6e69468cba38e573a33027dcd7e] RESPONSE Quit
